@@ -1,6 +1,6 @@
-# Geometra — geodezinių ir topografinių darbų svetainė
+# GT Darbai — geodezinių ir topografinių darbų svetainė
 
-Statinė vienos puslapio svetainė lietuvių kalba geodezijos/topografijos paslaugas teikiančiai įmonei. Grynas HTML/CSS/JS — jokių build įrankių ar priklausomybių, todėl ją galima talpinti bet kur (GitHub Pages, Netlify, Vercel, bet kuris hostingas).
+Statinė vienos puslapio svetainė lietuvių kalba įmonei „Geodeziniai ir topografiniai darbai“ (veikia nuo 2006 m.). Grynas HTML/CSS/JS — jokių build įrankių ar priklausomybių, todėl ją galima talpinti bet kur (GitHub Pages, Netlify, Vercel, bet kuris hostingas).
 
 ## Struktūra
 
@@ -11,17 +11,26 @@ js/main.js      – meniu, slinkties animacijos, D.U.K. akordeonas, formos valid
 img/favicon.svg – svetainės ženkliukas
 ```
 
-## Ką reikia pakeisti prieš publikavimą
+## Įmonės duomenys, jau įtraukti į svetainę
 
-1. **Įmonės pavadinimas ir prekės ženklas** — šiuo metu naudojamas vietos rezervavimo pavadinimas „Geometra“. Pakeiskite `index.html` antraštėje ir poraštėje bei `<title>`/meta aprašyme.
-2. **Kontaktiniai duomenys** — telefonas (`+370 600 00000`), adresas („Geodezininkų g. 12, Vilnius“) ir įmonės kodai poraštėje yra pavyzdiniai. El. paštas šiuo metu nurodytas `jonas.kublickas727@gmail.com` — pakeiskite, jei reikia kito adreso.
-3. **Žemėlapis** — kontaktų sekcijoje įterptas OpenStreetMap su Vilniaus centro žymekliu. Pakeiskite `bbox` ir `marker` parametrus tikru adresu (`src="https://www.openstreetmap.org/export/embed.html?..."`).
-4. **Atsiliepimai** — trys pavyzdiniai klientų atsiliepimai `#atsiliepimai` sekcijoje pažymėti kaip pavyzdiniai; pakeiskite tikrais klientų komentarais, kai jų turėsite.
-5. **Užklausos forma** — forma šiuo metu tik rodo sėkmės pranešimą naršyklėje (front-end demo), realiai laiškų nesiunčia. Kad gautumėte užklausas į savo el. paštą, prijunkite formą prie:
+- **Pavadinimas:** Geodeziniai ir topografiniai darbai (logotipe rodomas trumpinys „GT Darbai“)
+- **Veikla nuo:** 2006 m.
+- **Adresas:** Žalgirio g. 88-507, Vilnius, Lietuva
+- **Tel./faksas:** +370 5 272 8058
+- **El. paštas:** gtdarbai@gtdarbai.lt, gtdarbai@gmail.com
+
+Jei kuris nors duomuo pasikeis, ieškokite jo `index.html` faile (naudokite paiešką pagal telefono numerį, el. paštą ar adresą — jie kartojasi antraštėje, „Apie mus“, „Kontaktai“ ir poraštės sekcijose).
+
+## Ką dar reikia pridėti prieš publikavimą
+
+1. **Žemėlapis** — kontaktų sekcijoje įterptas OpenStreetMap žymeklis apytiksliai Žalgirio g. 88 vietoje (Šnipiškės, Vilnius). Patikrinkite ir, jei reikia, pakoreguokite tikslesnes `bbox`/`marker` koordinates (`src="https://www.openstreetmap.org/export/embed.html?..."`).
+2. **Atsiliepimai** — trys pavyzdiniai klientų atsiliepimai `#atsiliepimai` sekcijoje pažymėti kaip pavyzdiniai; pakeiskite tikrais klientų komentarais, kai jų turėsite.
+3. **Užklausos forma** — forma šiuo metu tik rodo sėkmės pranešimą naršyklėje (front-end demo), realiai laiškų nesiunčia. Kad gautumėte užklausas į savo el. paštą, prijunkite formą prie:
    - [Formspree](https://formspree.io) — pridėkite `action="https://formspree.io/f/JŪSŲ_ID"` prie `<form id="quoteForm">`, arba
    - [EmailJS](https://www.emailjs.com), arba
    - savo backend/serverless funkcijos.
-6. **Socialiniai tinklai** — poraštėje esančios Facebook/LinkedIn/Instagram nuorodos (`href="#"`) turi būti pakeistos tikrais profilių adresais.
+4. **Įmonės kodas / PVM mokėtojo kodas** — poraštėje šiuo metu nėra registracijos kodų (nebuvo pateikti). Įrašykite juos į `.footer-bottom` bloką, jei norite juos rodyti.
+5. **Socialiniai tinklai** — poraštėje esančios Facebook/LinkedIn/Instagram nuorodos (`href="#"`) turi būti pakeistos tikrais profilių adresais.
 
 ## Paleidimas lokaliai
 
