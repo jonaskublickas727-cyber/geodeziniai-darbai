@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geometra — Geodeziniai ir topografiniai darbai Lietuvoje</title>
+<meta name="description" content="Geometra atlieka geodezinius ir topografinius darbus visoje Lietuvoje: topografinės nuotraukos, statybos ašių nužymėjimas, kadastriniai matavimai, išpildomosios nuotraukos. Gaukite pasiūlymą per 24 val.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#pradzia" class="brand">
+      <svg class="mark" width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#D98C2B"/>
+        <path d="M8 28L18 12L23 20L27 14L32 28" stroke="#0A1420" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="18" cy="12" r="2.1" fill="#0A1420"/>
+      </svg>
+      <span>Geometra<small>Geodezija &amp; topografija</small></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#pradzia">Pradžia</a></li>
+        <li><a href="#paslaugos">Paslaugos</a></li>
+        <li><a href="#apie">Apie mus</a></li>
+        <li><a href="#eiga">Darbo eiga</a></li>
+        <li><a href="#atsiliepimai">Atsiliepimai</a></li>
+        <li><a href="#duk">D.U.K.</a></li>
+        <li><a href="#kontaktai">Kontaktai</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a href="tel:+37060000000" class="header-phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <span>+370 600 00000</span>
+      </a>
+      <a href="#kontaktai" class="btn btn-primary">Gauti pasiūlymą</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Meniu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="nav-overlay" id="navOverlay"></div>
+<aside class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" id="mobileNavClose" aria-label="Uždaryti">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <ul>
+    <li><a href="#pradzia">Pradžia</a></li>
+    <li><a href="#paslaugos">Paslaugos</a></li>
+    <li><a href="#apie">Apie mus</a></li>
+    <li><a href="#eiga">Darbo eiga</a></li>
+    <li><a href="#atsiliepimai">Atsiliepimai</a></li>
+    <li><a href="#duk">D.U.K.</a></li>
+    <li><a href="#kontaktai">Kontaktai</a></li>
+  </ul>
+  <a href="#kontaktai" class="btn btn-primary btn-block">Gauti pasiūlymą</a>
+</aside>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="pradzia">
+  <div class="hero-contours" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <g fill="none" stroke="#D98C2B" stroke-width="1">
+        <path opacity="0.5" d="M-50 650 C 150 600, 300 700, 500 630 C 700 560, 850 660, 1050 600 C 1150 570, 1250 610, 1300 590" />
+        <path opacity="0.4" d="M-50 600 C 150 550, 300 650, 500 580 C 700 510, 850 610, 1050 550 C 1150 520, 1250 560, 1300 540" />
+        <path opacity="0.35" d="M-50 550 C 150 500, 300 600, 500 530 C 700 460, 850 560, 1050 500 C 1150 470, 1250 510, 1300 490" />
+        <path opacity="0.3" d="M-50 500 C 150 450, 300 550, 500 480 C 700 410, 850 510, 1050 450 C 1150 420, 1250 460, 1300 440" />
+        <path opacity="0.25" d="M-50 450 C 150 400, 300 500, 500 430 C 700 360, 850 460, 1050 400 C 1150 370, 1250 410, 1300 390" />
+        <path opacity="0.2" d="M-50 60 C 150 20, 320 100, 480 40 C 650 -20, 800 60, 950 10" />
+        <path opacity="0.15" d="M-50 110 C 150 70, 320 150, 480 90 C 650 30, 800 110, 950 60" />
+      </g>
+    </svg>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <div class="hero-kicker">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z" fill="#D98C2B"/></svg>
+        Licencijuoti geodezijos darbai visoje Lietuvoje
+      </div>
+      <h1>Tikslūs <span>geodeziniai ir topografiniai</span> darbai jūsų projektui</h1>
+      <p class="hero-lead">Atliekame topografines nuotraukas, statybos ašių nužymėjimą, kadastrinius matavimus ir kitus geodezijos darbus greitai, tiksliai ir su pilna dokumentacija, atitinkančia Registrų centro reikalavimus.</p>
+      <div class="hero-actions">
+        <a href="#kontaktai" class="btn btn-primary btn-lg">Gauti nemokamą pasiūlymą</a>
+        <a href="#paslaugos" class="btn btn-light btn-lg">Peržiūrėti paslaugas</a>
+      </div>
+      <div class="hero-trust">
+        <div class="stat"><b>15+</b><span>metų patirties</span></div>
+        <div class="stat"><b>500+</b><span>įvykdytų projektų</span></div>
+        <div class="stat"><b>60</b><span>savivaldybių aprėptis</span></div>
+        <div class="stat"><b>24 val.</b><span>atsakymo laikas</span></div>
+      </div>
+    </div>
+
+    <div class="hero-card reveal in">
+      <h3>Kodėl klientai renkasi Geometra</h3>
+      <p class="muted-light">Viena komanda — nuo pirmo skambučio iki galutinių dokumentų.</p>
+      <ul class="quick-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Sertifikuoti geodezininkai ir inžinieriai</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Moderni GNSS ir tacheometrinė įranga</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Aiški kaina — be paslėptų mokesčių</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Dokumentai, priimami visose institucijose</li>
+      </ul>
+      <a href="#kontaktai" class="btn btn-light btn-block">Užsisakyti skambutį</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUST STRIP ================= -->
+<div class="strip">
+  <div class="container">
+    <span class="label">Dirbame pagal</span>
+    <div class="badges">
+      <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="1.6"/></svg> LR geodezijos ir kartografijos reikalavimus</span>
+      <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M9 4v16" stroke="currentColor" stroke-width="1.6"/></svg> GIS/LKS-94 koordinačių sistemą</span>
+      <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg> Duomenų teikimą į GeoPortal.lt</span>
+      <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/></svg> Civilinės atsakomybės draudimą</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="paslaugos">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-tag">Paslaugos</span>
+      <h2>Geodezijos paslaugos kiekvienam projekto etapui</h2>
+      <p>Nuo pradinių topografinių nuotraukų iki statinio pripažinimo tinkamu naudoti — atliekame visus geodezinius darbus vienoje vietoje.</p>
+    </div>
+
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 17l6-8 4 5 3-4 5 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 21h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Topografinės nuotraukos</h3>
+        <p>Detalios sklypo topografinės nuotraukos, reikalingos projektavimui, statybos leidimui gauti ir inžineriniams sprendiniams.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M4 6h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="2.4" fill="currentColor"/></svg></div>
+        <h3>Statybos ašių nužymėjimas</h3>
+        <p>Tikslus pastatų, statinių ir inžinerinių tinklų ašių bei kontūrų nužymėjimas statybos aikštelėje prieš darbų pradžią.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 20l6-14 4 8 3-5 3 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 20h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="10" cy="6" r="1.6" fill="currentColor"/></svg></div>
+        <h3>Kadastriniai matavimai</h3>
+        <p>Žemės sklypų ribų nustatymas, riboženklių įtvirtinimas ir kadastro duomenų bylų parengimas Registrų centrui.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 12h6M15 12h6M9 12a3 3 0 106 0 3 3 0 00-6 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Inžinerinių tinklų fiksavimas</h3>
+        <p>Požeminių ir antžeminių komunikacijų geodezinės nuotraukos, tinklų sutikrinimas ir duomenų teikimas GeoPortal.lt.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="8" width="16" height="12" rx="1.5" stroke="currentColor" stroke-width="1.8"/><path d="M8 8V5a4 4 0 018 0v3" stroke="currentColor" stroke-width="1.8"/></svg></div>
+        <h3>Statinių išpildomosios nuotraukos</h3>
+        <p>Pastatytų objektų geodeziniai matavimai, reikalingi statinio pripažinimui tinkamu naudoti ir dokumentacijai.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 20l4-11 4 6 3-8 3 6 4-4v11z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Tūrio ir kiekių skaičiavimai</h3>
+        <p>Žemės darbų, karjerų, sandėliavimo aikštelių ir statybinių medžiagų kubatūros bei kiekių apskaičiavimas.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 18c4-8 6 6 10-2s4 2 6-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="20" cy="6" r="1.6" fill="currentColor"/></svg></div>
+        <h3>Deformacijų stebėjimai</h3>
+        <p>Periodinis pastatų, statinių ir gruntų geodezinis monitoringas, sekant poslinkius ir deformacijas laike.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 6c4 0 4 4 8 4s4-4 8-4M3 14c4 0 4 4 8 4s4-4 8-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Trasų geodeziniai darbai</h3>
+        <p>Inžinerinių tinklų, kelių ir susisiekimo komunikacijų trasų projektavimo bei tiesimo geodeziniai matavimai.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section class="why" id="apie">
+  <div class="container why-grid">
+    <div>
+      <span class="section-tag">Apie mus</span>
+      <div class="section-head">
+        <h2>Patikimas partneris tiksliems geodeziniams sprendimams</h2>
+        <p>Jau daugiau nei 15 metų teikiame geodezijos ir topografijos paslaugas privatiems bei verslo klientams visoje Lietuvoje — nuo mažo sklypo iki didelių infrastruktūros projektų.</p>
+      </div>
+
+      <div class="why-list">
+        <div class="why-item reveal">
+          <div class="num">01</div>
+          <div><h4>Sertifikuota komanda</h4><p>Visi matavimai atliekami kvalifikuotų geodezininkų, turinčių ilgametę patirtį įvairiuose projektuose.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">02</div>
+          <div><h4>Šiuolaikinė įranga</h4><p>Naudojame GNSS RTK imtuvus ir robotizuotus tacheometrus, užtikrinančius aukštą matavimų tikslumą.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">03</div>
+          <div><h4>Greitas aptarnavimas</h4><p>Atsakome į užklausas per 24 valandas, o skubius darbus atliekame per kelias dienas.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">04</div>
+          <div><h4>Pilna dokumentacija</h4><p>Parengiame visus reikalingus planus ir bylas, atitinkančias VĮ Registrų centro reikalavimus.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equip-card reveal">
+      <h3>Naudojama įranga ir technologijos</h3>
+      <ul class="equip-list">
+        <li><b>GNSS RTK imtuvai</b> <span class="tag">Iki 1 cm tikslumas</span></li>
+        <li><b>Robotizuoti tacheometrai</b> <span class="tag">Automatinis sekimas</span></li>
+        <li><b>Skaitmeniniai niveliai</b> <span class="tag">Aukščių matavimai</span></li>
+        <li><b>Dronai (UAV) fotogrametrijai</b> <span class="tag">Dideli plotai</span></li>
+        <li><b>GIS ir CAD programinė įranga</b> <span class="tag">Duomenų apdorojimas</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="process" id="eiga">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-tag">Darbo eiga</span>
+      <h2>Kaip vyksta bendradarbiavimas</h2>
+      <p>Skaidrus procesas nuo pirmo kontakto iki galutinių dokumentų perdavimo.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-card reveal">
+        <span class="step-num">01</span>
+        <h4>Užklausa</h4>
+        <p>Susisiekiate telefonu, el. paštu ar per formą — trumpai papasakojate apie objektą.</p>
+      </div>
+      <div class="process-card reveal">
+        <span class="step-num">02</span>
+        <h4>Konsultacija ir sąmata</h4>
+        <p>Įvertiname darbų apimtį ir pateikiame aiškų kainos bei terminų pasiūlymą.</p>
+      </div>
+      <div class="process-card reveal">
+        <span class="step-num">03</span>
+        <h4>Matavimai vietoje</h4>
+        <p>Atvykstame į objektą ir atliekame geodezinius matavimus naudodami modernią įrangą.</p>
+      </div>
+      <div class="process-card reveal">
+        <span class="step-num">04</span>
+        <h4>Duomenų apdorojimas</h4>
+        <p>Parengiame planus, brėžinius bei skaičiavimus, atitinkančius galiojančius reikalavimus.</p>
+      </div>
+      <div class="process-card reveal">
+        <span class="step-num">05</span>
+        <h4>Dokumentų perdavimas</h4>
+        <p>Pateikiame galutinę dokumentaciją jums ir, jei reikia, atsakingoms institucijoms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS BAND ================= -->
+<div class="stats-band">
+  <div class="container stats-grid">
+    <div class="stat reveal"><b>15+</b><span>Metų patirtis</span></div>
+    <div class="stat reveal"><b>500+</b><span>Įvykdyti projektai</span></div>
+    <div class="stat reveal"><b>60</b><span>Aptarnaujamos savivaldybės</span></div>
+    <div class="stat reveal"><b>98%</b><span>Klientų grįžta pakartotinai</span></div>
+  </div>
+</div>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="atsiliepimai">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-tag">Atsiliepimai</span>
+      <h2>Ką sako mūsų klientai</h2>
+      <p>Pavyzdiniai atsiliepimai — pakeiskite tikrais klientų komentarais, kai jų turėsite.</p>
+    </div>
+
+    <div class="test-grid">
+      <div class="test-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">„Darbai atlikti greitai ir labai tiksliai. Visi dokumentai priimti Registrų centre be jokių pastabų.“</p>
+        <div class="test-author">
+          <div class="test-avatar">R.K.</div>
+          <div><strong>Rimantas K.</strong><span>Privatus klientas, Vilniaus r.</span></div>
+        </div>
+      </div>
+      <div class="test-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">„Bendradarbiaujame jau kelis metus statybos projektuose — visada aiškūs terminai ir profesionalus aptarnavimas.“</p>
+        <div class="test-author">
+          <div class="test-avatar">UAB</div>
+          <div><strong>Statybų įmonės atstovas</strong><span>Kaunas</span></div>
+        </div>
+      </div>
+      <div class="test-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="quote">„Rekomenduoju — sąžininga kaina, greitas atsakymas ir kokybiškai parengti topografiniai planai.“</p>
+        <div class="test-author">
+          <div class="test-avatar">J.P.</div>
+          <div><strong>Jolanta P.</strong><span>Sklypo savininkė, Klaipėdos r.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA BAND ================= -->
+<section style="padding: 0 24px 96px;">
+  <div class="cta-band reveal">
+    <div>
+      <h2>Reikia geodezinių matavimų?</h2>
+      <p>Susisiekite ir gaukite nemokamą kainos pasiūlymą per 24 valandas.</p>
+    </div>
+    <div class="cta-band-actions">
+      <a href="#kontaktai" class="btn btn-primary btn-lg">Gauti pasiūlymą</a>
+      <a href="tel:+37060000000" class="btn btn-light btn-lg">Skambinti dabar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="duk">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-tag">D.U.K.</span>
+      <h2>Dažniausiai užduodami klausimai</h2>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Kiek laiko trunka topografinės nuotraukos parengimas?
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="faq-a"><p>Priklausomai nuo sklypo dydžio ir sudėtingumo, darbai vietoje trunka nuo kelių valandų iki poros dienų, o galutinis planas paprastai parengiamas per 3–7 darbo dienas.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Kiek kainuoja geodeziniai matavimai?
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="faq-a"><p>Kaina priklauso nuo darbų pobūdžio, sklypo ploto ir vietos. Atsiuntę užklausą su objekto informacija, gausite individualų pasiūlymą per 24 valandas.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Ar dirbate visoje Lietuvoje?
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="faq-a"><p>Taip, atliekame darbus visose Lietuvos savivaldybėse. Didesniems ar tolimesniems projektams terminai derinami individualiai.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Ar parengti dokumentai bus priimti Registrų centre?
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="faq-a"><p>Taip, visi dokumentai rengiami laikantis galiojančių teisės aktų ir techninių reikalavimų, todėl juos priima visos institucijos.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Kaip užsisakyti paslaugą?
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="faq-a"><p>Užpildykite užklausos formą, paskambinkite arba parašykite el. paštu. Susisieksime, aptarsime detales ir pateiksime pasiūlymą.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="kontaktai">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-tag">Kontaktai</span>
+      <h2>Gaukite nemokamą pasiūlymą</h2>
+      <p>Užpildykite formą arba susisiekite tiesiogiai — atsakysime per 24 valandas.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info">
+          <div class="info-card reveal">
+            <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+            <div><h4>Telefonas</h4><p><a class="value" href="tel:+37060000000">+370 600 00000</a></p></div>
+          </div>
+          <div class="info-card reveal">
+            <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3z" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg></div>
+            <div><h4>El. paštas</h4><p><a class="value" href="mailto:jonas.kublickas727@gmail.com">jonas.kublickas727@gmail.com</a></p></div>
+          </div>
+          <div class="info-card reveal">
+            <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.3 7-11.5A7 7 0 105 9.5C5 14.7 12 21 12 21z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.6"/></svg></div>
+            <div><h4>Adresas</h4><p>Geodezininkų g. 12, Vilnius, Lietuva</p></div>
+          </div>
+          <div class="info-card reveal">
+            <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+            <div><h4>Darbo laikas</h4><p>I–V 8:00–18:00, šeštadienį pagal susitarimą</p></div>
+          </div>
+        </div>
+
+        <div class="contact-map reveal" style="margin-top:20px;">
+          <iframe title="Žemėlapis" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=25.24%2C54.66%2C25.32%2C54.72&layer=mapnik&marker=54.6872%2C25.2797"></iframe>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h3>Užklausos forma</h3>
+        <p>Aprašykite savo objektą — susisieksime su pasiūlymu per 24 val.</p>
+
+        <div class="form-success" id="formSuccess">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.6"/><path d="M8 12.5l2.5 2.5L16 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Ačiū! Jūsų užklausa gauta — susisieksime artimiausiu metu.
+        </div>
+
+        <form id="quoteForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Vardas, pavardė *</label>
+              <input type="text" id="name" name="name" required placeholder="Jonas Jonaitis">
+            </div>
+            <div class="field">
+              <label for="phone">Telefono numeris *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+370 6xx xxxxx">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="email">El. paštas *</label>
+              <input type="email" id="email" name="email" required placeholder="jusu@pastas.lt">
+            </div>
+            <div class="field">
+              <label for="service">Reikalinga paslauga</label>
+              <select id="service" name="service">
+                <option value="">Pasirinkite paslaugą</option>
+                <option>Topografinė nuotrauka</option>
+                <option>Statybos ašių nužymėjimas</option>
+                <option>Kadastriniai matavimai</option>
+                <option>Inžinerinių tinklų fiksavimas</option>
+                <option>Statinio išpildomoji nuotrauka</option>
+                <option>Tūrio skaičiavimai</option>
+                <option>Deformacijų stebėjimas</option>
+                <option>Kita / nežinau</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="address">Objekto adresas / vieta</label>
+            <input type="text" id="address" name="address" placeholder="Miestas, gatvė arba kadastro numeris">
+          </div>
+
+          <div class="field">
+            <label for="message">Žinutė</label>
+            <textarea id="message" name="message" placeholder="Trumpai aprašykite darbų apimtį, sklypo dydį ar kitą svarbią informaciją"></textarea>
+          </div>
+
+          <div class="consent">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">Sutinku, kad mano pateikti duomenys būtų naudojami užklausai apdoroti ir susisiekti su manimi.</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Siųsti užklausą</button>
+          <p class="field-hint" style="text-align:center;margin-top:14px;">Arba parašykite tiesiogiai: <a href="mailto:jonas.kublickas727@gmail.com">jonas.kublickas727@gmail.com</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#pradzia" class="brand">
+          <svg width="36" height="36" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="9" fill="#D98C2B"/><path d="M8 28L18 12L23 20L27 14L32 28" stroke="#0A1420" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="12" r="2.1" fill="#0A1420"/></svg>
+          <span>Geometra<small>Geodezija &amp; topografija</small></span>
+        </a>
+        <p>Profesionalūs geodeziniai ir topografiniai darbai visoje Lietuvoje — tiksliai, greitai ir su pilna dokumentacija.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M14 9h3V6h-3c-2 0-3.5 1.5-3.5 3.5V11H8v3h2.5v6h3v-6H16l.5-3h-3V9.5c0-.3.2-.5.5-.5z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="9" width="4" height="12" fill="currentColor"/><circle cx="5" cy="5" r="2.2" fill="currentColor"/><path d="M11 9h4v2s1-2.2 4-2.2 5 1.8 5 5.5V21h-4v-6c0-1.5-.5-2.5-2-2.5s-2.5 1-2.5 2.5v6h-4V9z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Nuorodos</h4>
+        <ul>
+          <li><a href="#pradzia">Pradžia</a></li>
+          <li><a href="#paslaugos">Paslaugos</a></li>
+          <li><a href="#apie">Apie mus</a></li>
+          <li><a href="#eiga">Darbo eiga</a></li>
+          <li><a href="#kontaktai">Kontaktai</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Paslaugos</h4>
+        <ul>
+          <li><a href="#paslaugos">Topografinės nuotraukos</a></li>
+          <li><a href="#paslaugos">Ašių nužymėjimas</a></li>
+          <li><a href="#paslaugos">Kadastriniai matavimai</a></li>
+          <li><a href="#paslaugos">Išpildomosios nuotraukos</a></li>
+          <li><a href="#paslaugos">Tūrio skaičiavimai</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontaktai</h4>
+        <ul>
+          <li class="contact-line"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg> +370 600 00000</li>
+          <li class="contact-line"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3z" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg> jonas.kublickas727@gmail.com</li>
+          <li class="contact-line"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.3 7-11.5A7 7 0 105 9.5C5 14.7 12 21 12 21z" stroke="currentColor" stroke-width="1.6"/></svg> Geodezininkų g. 12, Vilnius</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Geometra. Visos teisės saugomos.</span>
+      <span>Įmonės kodas: 000000000 · PVM mokėtojo kodas: LT000000000</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#pradzia" class="back-to-top" id="backToTop" aria-label="Į viršų">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+
+<div class="mobile-cta">
+  <a href="tel:+37060000000" class="btn btn-light" style="flex:1;">Skambinti</a>
+  <a href="#kontaktai" class="btn btn-primary" style="flex:1;">Gauti pasiūlymą</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
